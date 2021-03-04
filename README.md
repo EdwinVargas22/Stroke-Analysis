@@ -25,7 +25,7 @@ In our analysis, we found a stroke and cardiovascular disease dataset that provi
 ## Tableau
 
 
-### Data Exploration
+## Data Exploration
 ![Avg_Stroke_Heart_Disease](https://user-images.githubusercontent.com/60836219/109912056-356d6b00-7c60-11eb-9ff5-374304f822a8.png)
 
 This is one example of the bar charts we created. We separated by gender and then we wanted to compare if having heart disease versus not having heart disease will lead you to have a higher chance of having a stroke. From this bar chart, it appears people who do have heart disease have a higher chance of getting a stroke.
@@ -38,6 +38,10 @@ This is one example of the boxplot we created. This boxplot was also separated b
 
 For this heatmap correlation we wanted to see if there was any strong correlations with the other factors that were in the stroke dataset. It appears there isn't any strong correlation but we did come into conclusion that all the factors are dependent of each other for someone having a higher chance of having a stroke which explains why the heatmap correlation wasn't strong.
 
+## Machine Learning
+
+
+## Conclusion
 
 
 
