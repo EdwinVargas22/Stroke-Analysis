@@ -28,9 +28,17 @@ In our analysis, we found a stroke and cardiovascular disease dataset that provi
 ### Data Exploration
 ![Avg_Stroke_Heart_Disease](https://user-images.githubusercontent.com/60836219/109912056-356d6b00-7c60-11eb-9ff5-374304f822a8.png)
 
+This is one example of the bar charts we created. We separated by gender and then we wanted to compare if having heart disease versus not having heart disease will lead you to have a higher chance of having a stroke. From this bar chart, it appears people who do have heart disease have a higher chance of getting a stroke.
+
 ![Correlation_Age_Stroke](https://user-images.githubusercontent.com/60836219/109912062-38685b80-7c60-11eb-8dcd-72506a47f53e.png)
+
+This is one example of the boxplot we created. This boxplot was also separated by gender and we wanted to see if age is a major factor of having a stroke. For this boxplot it tells us people who are holder have a higher chance of having a stroke compared to people who don't.
 
 ![Correlations](https://user-images.githubusercontent.com/60836219/109912072-3bfbe280-7c60-11eb-8bdc-1b5d243f83a6.png)
 
-Used Matplotlib and Seaborn to create the catplots, boxplots, and heatmap charts.
+For this heatmap correlation we wanted to see if there was any strong correlations with the other factors that were in the stroke dataset. It appears there isn't any strong correlation but we did come into conclusion that all the factors are dependent of each other for someone having a higher chance of having a stroke which explains why the heatmap correlation wasn't strong.
+
+
+
+
 
