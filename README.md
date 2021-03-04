@@ -53,7 +53,8 @@ For this heatmap correlation we wanted to see if there was any strong correlatio
 ## Machine Learning
 
 
-## Conclusion
+## Conclusion/Take Away
+The outcome was something different than we originally thought. We learned there are a lot of factors that contribute to having a stroke and these factors are dependent of each other. If you have heart disease it does not necessarily mean you will have a stroke because your average glucose levels and other factors could fall in the recommended healthy levels. 
 
 
 
