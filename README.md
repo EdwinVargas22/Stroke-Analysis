@@ -26,9 +26,11 @@ In our analysis, we found a stroke and cardiovascular disease dataset that provi
 Using Tableau, we analyzed the top five ages who are already diagnosed with cardiovascular disease. We explored their specific health data to help us understand how the key factors have a role in increasing the chance of getting cardiovascular diseases among those people. 
 
 Key factors that increase the risk of getting cardiovascular diseases:
+
 <img width="487" alt="key_factors" src="https://user-images.githubusercontent.com/70189344/109913954-c7c33e00-7c63-11eb-88a8-b3652f46f720.png">
 
 Top 5 ages with cardiovascular diseases:
+
 <img width="698" alt="top_5_ages" src="https://user-images.githubusercontent.com/70189344/109913981-d7db1d80-7c63-11eb-8276-06d9a2d536ed.png">
 
 Stroke mortality by states:
