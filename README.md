@@ -26,4 +26,11 @@ In our analysis, we found a stroke and cardiovascular disease dataset that provi
 
 
 ### Data Exploration
+![Avg_Stroke_Heart_Disease](https://user-images.githubusercontent.com/60836219/109912056-356d6b00-7c60-11eb-9ff5-374304f822a8.png)
+
+![Correlation_Age_Stroke](https://user-images.githubusercontent.com/60836219/109912062-38685b80-7c60-11eb-8dcd-72506a47f53e.png)
+
+![Correlations](https://user-images.githubusercontent.com/60836219/109912072-3bfbe280-7c60-11eb-8bdc-1b5d243f83a6.png)
+
 Used Matplotlib and Seaborn to create the catplots, boxplots, and heatmap charts.
+
