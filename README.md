@@ -21,3 +21,9 @@ In our analysis, we found a stroke and cardiovascular disease dataset that provi
 * Changed the object type for certain columns
 * Changed the age values to years
 * After all of this was done, saved the clean dataset.
+
+## Tableau
+
+
+### Data Exploration
+Used Matplotlib and Seaborn to create the catplots, boxplots, and heatmap charts.
