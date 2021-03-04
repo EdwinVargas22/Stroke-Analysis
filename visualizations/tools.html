@@ -9,85 +9,115 @@
     <title>Bootstrap Visualization Dashboard</title>
 
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
 
     <!-- Our own CSS stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
 
   </head>
 
   <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
+<!-- Start of navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid navbar-custom">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Team Stroke</a>
-            </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analyses <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                 <li><a href="visualizations/tableau.html">Tableau</a></li>
-                  <li><a href="visualizations/scikit.html">Scikit Learn</a></li>
-                  <li><a href="visualizations/matplotlib.html">Matplotlib</a></li>
-                </ul>
-              </li>
-              <li><a href="visualizations/tools.html">Tools</a></li>
-              <li><a href="data.html">Data</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="col-xs-9 phone-nav">
+          <a class="navbar-brand" href="#" id="logo">Team Stroke</a>
         </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-right-custom">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analyses <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+             <li><a href="tableau.html">Tableau</a></li>
+              <li><a href="matplotlib.html">Matplotlib-Seaborn</a></li>
+            </ul>
+          </li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End of navbar -->
 
     <!-- Start of container -->
     <div class="container">
       <section class="row">
         <div class="col-md-8">
           <article class="description-content">
-            <h1 class="description-header">Summary: Stroke in the United States</h1>
+            <h1 class="description-header">Tools</h1>
             <hr class="description-hr"/>
-            <img src="Resources/stroke_mortality_map.png" alt="" style = 'width:50%' id="description-image"/>
-            <p>According to the World Health Organization, 15 million people suffer from a stroke worldwide each year. Of these, 5 million die and another 5 million are permanently disabled in some way.</p>
-            <p>For our project, we analyzed a subset of these stroke individuals to identify the various factors that may contribute to stroke risk, and use machine learning to identify the risk of stroke.</p>
+            <p>We used a variety of tools to complete this project, as seen below.</p>
           </article>
         </div>
         <div class="col-md-4">
-
-          <!-- Start of Visualizations imageNav Area -->
-          <section id="imageNav-area">
-            <div class="imageNav-content">
-              <h2 class="imageNav-header">Visualizations</h2>
-              <hr />
-              <div id="images">
-                <a href="visualizations/temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
-                <a href="visualizations/humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
-                <a href="visualizations/cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
-                <a href="visualizations/wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
-              </div>
-            </div>
-          </section>
-          <!-- End of the Visualizations imageNav Area -->
 
         </div>
       </section>
     </div>
     <!-- End of container -->
+
+<!-- row 1 -->
+<div class='row'>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="../Resources/python_logo.png">
+        <img src="../Resources/python_logo.png" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="../Resources/matplotlib_logo.png">
+        <img src="../Resources/matplotlib_logo.png" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="../Resources/seaborn_logo.svg">
+        <img src="../Resources/seaborn_logo.svg" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="../Resources/tableau_logo.jpg">
+        <img src="../Resources/tableau_logo.jpg" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="../Resources/scikit_logo.png">
+        <img src="../Resources/scikit_logo.png" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="../Resources/html_logo.png">
+        <img src="../Resources/html_logo.png" alt="Lights" style="width:100%">
+      </a>
+    </div>
+  </div>
+</div>
+
+
 
     <!-- Start of footer -->
     <footer class="footer navbar-fixed-bottom">

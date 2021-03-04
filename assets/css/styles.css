@@ -36,7 +36,7 @@ html {
   
   #logo {
     /* Box-model */
-    height: 60px;
+    height: 80px;
     padding-top: 20px;
     padding-bottom: 5px;
   
@@ -107,7 +107,7 @@ html {
   /* ----DESCRIPTION START---- */
   .description-header {
     /* Positioning */
-    margin-bottom: 33px;
+    margin-bottom: 15px;
     font-family: Georgia, Times, "Times New Roman", serif;
   
     /* Typography */
@@ -118,7 +118,7 @@ html {
   
   .description-content {
     /* Box-model */
-    padding: 30px;
+    padding: 50px;
   
     /* Positioning */
     margin-top: 32px;
@@ -138,7 +138,7 @@ html {
   }
   
   .description-text {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
   
   #description-image {
@@ -246,7 +246,7 @@ html {
   
     /* Box-model */
     width: 100%;
-    height: 60px;
+    height: 40px;
     margin-top: 30px;
   
     /* Visual */

@@ -17,44 +17,42 @@
   </head>
 
   <body>
-    <!-- Start of navbar -->
-    <nav class="navbar navbar-default">
-      <div class="container-fluid navbar-custom">
+<!-- Start of navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid navbar-custom">
 
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="row">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle Navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">Team Stroke</a>
-            </div>
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analyses <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                 <li><a href="visualizations/tableau.html">Tableau</a></li>
-                  <li><a href="visualizations/scikit.html">Scikit Learn</a></li>
-                  <li><a href="visualizations/matplotlib.html">Matplotlib</a></li>
-                </ul>
-              </li>
-              <li><a href="visualizations/tools.html">Tools</a></li>
-              <li><a href="data.html">Data</a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="col-xs-9 phone-nav">
+          <a class="navbar-brand" href="#" id="logo">Team Stroke</a>
         </div>
-      </div><!-- /.container-fluid -->
-    </nav>
-    <!-- End of navbar -->
+      </div>
 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-right-custom">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analyses <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+             <li><a href="tableau.html">Tableau</a></li>
+              <li><a href="matplotlib.html">Matplotlib-Seaborn</a></li>
+            </ul>
+          </li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End of navbar -->
     <!-- Start of container -->
     <div class="container">
       <section class="row">
@@ -62,9 +60,8 @@
           <article class="description-content">
             <h1 class="description-header">Tableau Analysis</h1>
             <hr class="description-hr"/>
-            <img src="../Resources/stroke_mortality_map.png" alt="" style = 'width:50%' id="description-image"/>
-            <p>According to the World Health Organization, 15 million people suffer from a stroke worldwide each year. Of these, 5 million die and another 5 million are permanently disabled in some way.</p>
-            <p>For our project, we analyzed a subset of these stroke individuals to identify the various factors that may contribute to stroke risk, and use machine learning to identify the risk of stroke.</p>
+            <p>Using Tableau, we analyzed the top five ages who are already diagnosed with cardiovascular disease. We explored their specific health data to help us understand how the key factors have a role in increasing the chance of getting cardiovascular diseases among those people.
+            </p>            
           </article>
         </div>
         <div class="col-md-4">
@@ -88,6 +85,79 @@
       </section>
     </div>
     <!-- End of container -->
+
+    <!-- Start of Image Gallery -->
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/top_5_ages.png">
+          <img src="../Resources/top_5_ages.png" alt="Lights" style="width:100%">
+          <div class="caption">
+            <p>Overall, the chart shows that there is a strong correlation between older ages and the likelihood of getting a cardiovascular disease.
+              While it’s more evident that there is a higher risk of stroke and heart disease with increasing age, you can still experience one at a younger age.
+              According to the CDC, in 2009, 34% of stroke hospitalizations were less than 65 years old. 
+            </p>
+            <a href='https://public.tableau.com/profile/danica6327#!/vizhome/Top5AgesandMvFdianosis/Top5AgesandMvFdiagnosis'>This interactive visualization can be accessed by clicking this link </a>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/male_vs_female.png">
+          <img src="../Resources/male_vs_female.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>For both male and female, we see the similar trend, in which both of the groups tend to have higher chance of getting cardiovascular diseases in the older ages. 
+              However, male group has more people with cardiovascular diseases compared to females across all group ages. The trend looks more significant among people between age 54 to 64.
+            </p>
+            <a href='https://public.tableau.com/profile/danica6327#!/vizhome/Top5AgesandMvFdianosis/Top5AgesandMvFdiagnosis'>This interactive visualization can be accessed by clicking this link </a>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/key_factors.png">
+          <img src="../Resources/key_factors.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>In this chart, we look into 3 main factors that increase the chance of getting one of the cardiovascular diseases among the top 5 ages. 
+              The overall trend shows that people who have smoking and drinking habit while not working out tend to have higher possibility of getting cardiovascular diseases and this is trending more significantly among older age groups (60, 64).
+              Even though we did not see the remarkable trend in the younger age group compared to the other, we can still see the positive correlation between the 3 habits and the chance of getting cardiovascular diseases among people with younger ages.
+            </p>
+            <a href='https://public.tableau.com/profile/danica6327#!/vizhome/KeyfactorsthatcauseCDandHighBPCHlevels/KeyfactorsthatcauseCDandHighBPCHlevels'>This interactive visualization can be accessed by clicking this link </a>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/glucose_levels.png">
+          <img src="../Resources/glucose_levels.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Among the top 5 ages, these patients are diagnosed with cardiovascular disease, with high cholesterol and high blood pressure, and observing what glucose levels they have. Blood glucose is often elevated in acute stroke, and higher admission glucose levels are associated with larger lesions, greater mortality and poorer functional outcome. 
+              Glucose Levels are observed as follows: 
+              <p>- Normal average: 100 mg/dL </p>
+              <p>- Above average: >101 and 139 mg/dL</p>
+              <p>- Well above average: 140 mg/dL </p>
+              </p>
+              <a href='https://public.tableau.com/profile/danica6327#!/vizhome/KeyfactorsthatcauseCDandHighBPCHlevels/KeyfactorsthatcauseCDandHighBPCHlevels'>This interactive visualization can be accessed by clicking this link </a>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/stroke_mortality_map.png">
+          <img src="../Resources/stroke_mortality_map.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>This United States Stroke mortality data set was pulled from cdc.gov. You can filter this data from 2005, and 2014-2019 and note the total number of deaths for that state and its death rate. 
+              According to data from the CDC, someone in the United States has a stroke every 40 seconds and every 4 minutes, someone dies of stroke.
+            </p>
+            <a href='https://public.tableau.com/profile/danica6327#!/vizhome/StrokeMortalityintheUnitedStates/StrokeMortalityintheUS'>This interactive visualization can be accessed by clicking this link </a>
+          </div>
+        </a>
+      </div>
+    </div>
+  <!-- End of Image Gallery -->
 
     <!-- Start of footer -->
     <footer class="footer navbar-fixed-bottom">
