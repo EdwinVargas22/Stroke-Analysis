@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap Visualization Dashboard</title>
+
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
+
+    <!-- Our own CSS stylesheet -->
+    <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
+  </head>
+
+  <body>
+<!-- Start of navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid navbar-custom">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="row">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="col-xs-9 phone-nav">
+          <a class="navbar-brand" href="#" id="logo">Team Stroke</a>
+        </div>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-right-custom">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Analyses <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+             <li><a href="tableau.html">Tableau</a></li>
+              <li><a href="matplotlib.html">Matplotlib-Seaborn</a></li>
+            </ul>
+          </li>
+          <li><a href="tools.html">Tools</a></li>
+          <li><a href="data.html">Data</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<!-- End of navbar -->
+    <!-- Start of container -->
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="description-content">
+            <h1 class="description-header">Matplotlib-Seaborn Analysis</h1>
+            <hr class="description-hr"/>
+            <p>Below are some graphs and analyses using the matplotlib and seaborn packages.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+
+        </div>
+      </section>
+    </div>
+    <!-- End of container -->
+
+<!-- row 1 -->
+    <div class='row'>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="../Resources/Avg_Stroke_Hypertension.png">
+            <img src="../Resources/Avg_Stroke_Hypertension.png" alt="Lights" style="width:100%">
+            <div class="caption">
+              <p>This bar chart tells us people who have hypertension have a higher chance of getting a stroke compared to people who don’t have hypertension. The stroke column is set as 0 for no stroke and 1 for stroke which is why the values in the y-axis are only decimals. Interesting part is, males who don’t have hypertension have a small higher chance of getting a stroke compared to females who don’t have hypertension. It reverses for the genders for people who have hypertension but the difference between females and males is a bit higher. 
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Avg_Stroke_Heart_Disease.png">
+          <img src="../Resources/Avg_Stroke_Heart_Disease.png" alt="Nature" style="width:100%">
+          <div class="caption">
+            <p>For people who don’t have heart diseases it is pretty equal for both genders for having a stroke but the chance is low because it is closer to 0. People who do have heart diseases have a higher chance of having a stroke compared to the people who don’t have heart diseases. Males is slightly higher than females.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Avg_Stroke_Smoking_Status.png">
+          <img src="../Resources/Avg_Stroke_Smoking_Status.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>It is interesting to see males led in everything single status except for “Never Smoked.” The “Formerly Smoked” status led the pack of having a higher chance of getting a stroke for both genders. We would have thought people who “Smoked” would have led the pack but this is not the case. 
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- row 2 -->
+  <div class = 'row'>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Avg_Stroke_Work_Type.png">
+          <img src="../Resources/Avg_Stroke_Work_Type.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>The “Self-Employed” status leads the pack for both genders of having a higher chance of getting a stroke. In this chart, other factors were not taken into consideration which doesn’t give the big picture of why “Self-Employed” has a higher chance of getting a stroke. It doesn’t show anything for the “Never Worked” status because most people in this dataset worked.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Avg_Stroke_Residence_Type.png">
+          <img src="../Resources/Avg_Stroke_Residence_Type.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>There really isn’t any significance on where you live that would cause you to have a higher chance of having a stroke. The one interesting part is, males are a bit higher than females for both residence types.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Avg_Stroke_Marriage_Status.png">
+          <img src="../Resources/Avg_Stroke_Marriage_Status.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>Very interesting to see people who are married have a higher chance of having a stroke compared to people who aren’t married. It is not saying you shouldn’t get married so you have a less chance of getting a stroke. People who usually get married are older than people who aren’t married which is probably one of the reasons why married people is way higher than not married people.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Correlation_Age_Stroke.png">
+          <img src="../Resources/Correlation_Age_Stroke.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>The boxplot shows there is a strong correlation between age and stroke. The older you get, the higher chance of you getting a stroke.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Correlation_Glucoselevels_Stroke.png">
+          <img src="../Resources/Correlation_Glucoselevels_Stroke.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>This shows average glucose levels has a strong correlation with stroke. The boxplot for stroke is longer than for no stroke. There are a few outliers in the no stroke boxplots for both genders.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="../Resources/Correlation_BMI_Stroke.png">
+          <img src="../Resources/Correlation_BMI_Stroke.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>There isn’t any indication of a strong correlation between stroke and body mass index. The boxplots line up very closely for both genders, no stroke, and stroke.
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- last row, offset to middle -->
+    <div class="col-md-5 col-md-offset-4">
+      <div class="thumbnail">
+        <a href="../Resources/Correlations.png">
+          <img src="../Resources/Correlations.png" alt="Fjords" style="width:100%">
+          <div class="caption">
+            <p>The correlations heatmap shows none of the factors have a strong correlation but it does show there is a small correlation for age with stroke, hypertension, heart disease, and average glucose levels. This tells us individually there isn’t a strong correlations but all added together it will create a strong correlation. 
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  <!-- End of Image Gallery -->
+
+    <!-- Start of footer -->
+    <footer class="footer navbar-fixed-bottom">
+      <div class="two-toned-footer-color"></div>
+      <p class="text-muted text-muted-footer text-center">
+        &copy; Alex Dessoliers, Ann Nguyen, Danica Quero, Edwin Vargas, Kevin Low
+      </p>
+    </footer>
+    <!-- End of footer -->
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  </body>
+
+</html>
