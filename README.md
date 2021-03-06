@@ -54,7 +54,7 @@ For this heatmap correlation we wanted to see if there was any strong correlatio
 
 
 ## Conclusion/Take Away
-The outcome was something different than we originally thought. We learned there are a lot of factors that contribute to having a stroke and these factors are dependent of each other. If you have heart disease it does not necessarily mean you will have a stroke because your average glucose levels and other factors could fall in the recommended healthy levels. 
+The outcome was something different than we originally thought. We learned there are a lot of factors that contribute to having a stroke and these factors are dependent of each other. If you have heart disease it does not necessarily mean you will have a stroke because your average glucose levels and other factors could fall in the recommended healthy levels. With a larger dataset and balancing our desired output before training the model, we could have better results to work with. With a more viable dataset, our machine learning model would have been able to predict accurately whether or not patient's would be at risk or not for stroke. Also, implementing more algorithms besides logistic regression would have been able to see if other models would have been fit for our situation.
 
 
 
